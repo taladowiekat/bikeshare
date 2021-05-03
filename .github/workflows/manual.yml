@@ -5,8 +5,13 @@ name: Manual Workflow
 # Controls when the action will run. 
 on:
   # Triggers the workflow on pull request events but only for the master branch
+<<<<<<< HEAD
   pull_request_target:
     types: [assigned, opened, reopened]
+=======
+  pull_request:
+    branches: [ master ]
+>>>>>>> f7d8fb1 (Create manual.yml)
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
